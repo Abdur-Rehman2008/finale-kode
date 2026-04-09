@@ -12,7 +12,7 @@ function App() {
   const [hasLoadedFromStorage, setHasLoadedFromStorage] = useState(false);
   
 
-  // Løsning: Legg til console.log for debugging
+  // Løsning: Legg til console.log for debugging change 1
 
   useEffect(() => {
     const saved = localStorage.getItem('it-support-requests');
